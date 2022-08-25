@@ -1,0 +1,37 @@
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+
+  &__button {
+    background-color: #f0f2f5;
+    border: none;
+    width: 80px;
+    margin: 5px;
+    font-size: 14px;
+    border-right: 1px solid #fff;
+    font-weight: 500;
+    color: #84878d;
+    transition: all 0.2s;
+
+    &:hover {
+      background-color: #f44554;
+      color: #fff;
+      font-weight: 600;
+    }
+  }
+}
+
+.ordenatiion {
+}
