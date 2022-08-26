@@ -1,3 +1,5 @@
+@import "../../styles/variables";
+
 .box {
   display: flex;
   flex-direction: row;
@@ -15,23 +17,27 @@
   width: 100%;
 
   &__button {
-    background-color: #f0f2f5;
+    background-color: $light_grey;
     border: none;
     width: 80px;
     margin: 5px;
     font-size: 14px;
-    border-right: 1px solid #fff;
+    border-right: 1px solid $white;
     font-weight: 500;
-    color: #84878d;
+    color: $dark_grey;
+    cursor: pointer;
     transition: all 0.2s;
 
+    &--selected {
+      background-color: $light_red;
+      color: $white;
+      font-weight: 600;
+    }
+
     &:hover {
-      background-color: #f44554;
-      color: #fff;
+      background-color: $medium_red;
+      color: $white;
       font-weight: 600;
     }
   }
-}
-
-.ordenatiion {
 }

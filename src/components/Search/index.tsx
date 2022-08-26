@@ -1,13 +1,12 @@
 import styles from "./Search.module.scss";
-import classNames from "classnames";
 
 export default function Search() {
   return (
-    <div className={classNames({ [styles.search]: true })}>
+    <div className={styles.search}>
       <input
         type="text"
-        placeholder="Pokemon..."
-        className={classNames({ [styles.search__input]: true })}
+        placeholder="Buscar por..."
+        className={styles.search__input}
       />
     </div>
   );

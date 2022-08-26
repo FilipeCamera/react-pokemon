@@ -1,5 +1,7 @@
+@import "../../styles/variables";
+
 .box {
-  background-color: #fff;
+  background-color: $white;
   display: flex;
   flex-direction: column;
   width: 100%;

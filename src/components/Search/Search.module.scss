@@ -8,5 +8,9 @@
     border-radius: 5px;
     padding: 10px 12px;
     flex: 1;
+
+    &::placeholder {
+      color: #c7cdd8;
+    }
   }
 }
